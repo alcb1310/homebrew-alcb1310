@@ -5,12 +5,12 @@
 class Kanban < Formula
   desc "Kanban CLI - a cli tool for managin kanban boards"
   homepage "https://github.com/alcb1310/kanban"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
-    url "https://github.com/alcb1310/kanban/releases/download/v0.1.0/kanban_0.1.0_darwin_all.tar.gz"
-    sha256 "ec0815b23a5aa36938dd1fe7751f05eb1b24774c3a63b4ff1e903d495d638b4a"
+    url "https://github.com/alcb1310/kanban/releases/download/v0.1.1/kanban_0.1.1_darwin_all.tar.gz"
+    sha256 "349aaccc11d787a099e238ba247f4277b5d1bd243e9ff85d3d5811c51827edf4"
 
     def install
       bin.install "kanban"
@@ -19,16 +19,16 @@ class Kanban < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/alcb1310/kanban/releases/download/v0.1.0/kanban_0.1.0_linux_arm64.tar.gz"
-      sha256 "561661054159bbb3fd8053f74cb9d37a8dd577fb80af61d5a2563767e90ac1e0"
+      url "https://github.com/alcb1310/kanban/releases/download/v0.1.1/kanban_0.1.1_linux_arm64.tar.gz"
+      sha256 "ae2a8c7688957981495da014a005daf69620da38d836275f09c1dc9694d124ec"
 
       def install
         bin.install "kanban"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/alcb1310/kanban/releases/download/v0.1.0/kanban_0.1.0_linux_amd64.tar.gz"
-      sha256 "258daebdaa1087536adc28e5f9cb84904e0e7a6418d8a5a34d4df723569e0b6a"
+      url "https://github.com/alcb1310/kanban/releases/download/v0.1.1/kanban_0.1.1_linux_amd64.tar.gz"
+      sha256 "1ec6c8ed86deb36605018354800de7963126e3a457cd2fba2851f8a148470754"
 
       def install
         bin.install "kanban"
