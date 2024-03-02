@@ -5,12 +5,12 @@
 class Kanban < Formula
   desc "Kanban CLI - a cli tool for managin kanban boards"
   homepage "https://github.com/alcb1310/kanban"
-  version "0.0.12"
+  version "0.1.0"
   license "MIT"
   depends_on :macos
 
-  url "https://github.com/alcb1310/kanban/releases/download/v0.0.12/kanban_0.0.12_darwin_all.tar.gz"
-  sha256 "e66ef31e87712939c70cb4a1aa83278288c2088ec4ab04607936bad01a2499e8"
+  url "https://github.com/alcb1310/kanban/releases/download/v0.1.0/kanban_0.1.0_darwin_all.tar.gz"
+  sha256 "1b40f3f321ae5c19db109fa7a83c07ee7050365768f439c3444223253ba66871"
 
   def install
     bin.install "kanban"
