@@ -4,7 +4,7 @@ class CliTool < Formula
   url "https://github.com/alcb1310/cli-tool/archive/refs/tags/0.0.1.tar.gz"
   version "0.0.1"
   license "MIT"
-  sha256 "d5c5948bb9509d7cfaad9fe7b12df70aae6925b13131e662ccf920526dceac1a"
+  sha256 "e08075e7fcb66a38fd1848768a7d18c5c79b4aaf9238046d5a09056b281d9cd5"
 
   def install
     bin.install "cli-tool"
