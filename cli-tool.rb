@@ -1,4 +1,4 @@
-class Clitool < Formula
+class CliTool < Formula
   desc "A tutorial CLI tool"
   homepage "<https://github.com/alcb1310/cli-tool>"
   url "<https://github.com/alcb1310/cli-tool/releases/download/v0.0.1/0.0.1.tar.gz>"
